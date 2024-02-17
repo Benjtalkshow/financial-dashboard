@@ -1,21 +1,16 @@
-import React from "react";
-import "./App.css";
-import { Toaster } from "react-hot-toast";
-import Sidebar from "./components/Sidebar/Sidebar";
-import { BrowserRouter } from "react-router-dom";
-import Layout from "./components/Layout";
+import './App.css';
+import Sidebar from './layout/sidebar/Sidebar';
+import Content from './layout/content/Content';
 
 function App() {
   return (
-    <BrowserRouter>
-        <Toaster />
-      {/* <div className="bg-[#F4F3F9] h-screen">
+    <>
+      <div className='app'>
         <Sidebar />
-
-      </div> */}
-      <Layout />
-    </BrowserRouter>
-  );
+        <Content />
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
