@@ -11,6 +11,7 @@
   --clr-primar-light: #2a12e2;
   --clr-secondary: #1e1611;
   --clr-white: #fff;
+  --clr-off-white: #f4f3f9;
   --clr-black: #000;
   --clr-pumpkin: #fe6c00;
   --clr-silver: #a8a5a6;
@@ -80,11 +81,11 @@ button {
   font-weight: 600;
 }
 .grid-common {
-  background-color: var(--clr-primary);
+  background-color: var(--clr-white);
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 24px;
   color: var(--clr-white);
-  padding: 24px;
+  padding: 20px 14px 14px 14px;
 }
 .grid-c-title {
   display: flex;
@@ -93,8 +94,8 @@ button {
   margin-bottom: 16px;
 }
 .grid-c-title-text {
-  font-weight: 400;
-  color: var(--clr-silver);
+  font-weight: 800;
+  color: var(--clr-black);
 }
 .grid-c-title-icon img {
   width: 24px;

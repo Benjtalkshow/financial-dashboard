@@ -5,14 +5,14 @@ import "./ContentTop.css";
 import { useContext } from "react";
 
 
-const iconColor = "#fe6c00";
+const iconColor = "#1838f0";
 const ContentTop = () => {
   const { toggleSidebar } = useContext(SidebarContext);
   return (
     <div className="main-content-top">
         <div className="content-top-left">
             <button type="button" className="sidebar-toggler" onClick={() => toggleSidebar() }>
-                <HambergerMenu size={26} color="#fe6c00" />
+                <HambergerMenu size={26} color="#1838f0" />
             </button>
             <h3 className="content-top-title">Home</h3>
         </div>

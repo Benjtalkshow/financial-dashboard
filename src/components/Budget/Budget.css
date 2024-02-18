@@ -7,6 +7,7 @@
   .grid-c4-content {
     margin-top: 20px;
     border-radius: 16px;
+    background-color: var(--clr-primary);
   }
   .grid-c4 .grid-c4-content {
     padding: 12px;

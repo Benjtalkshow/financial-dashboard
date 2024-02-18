@@ -17,10 +17,11 @@
   .grid-c1-content .lg-value {
     margin-top: 8px;
     margin-bottom: 16px;
-    color: #c7c4c6;
+    color: var(--clr-white);
   }
   .grid-c1-content .expiry-text {
     margin-bottom: 6px;
+    color: var(--clr-white);
   }
   .grid-c1-content .card-wrapper {
     display: flex;
@@ -30,7 +31,7 @@
     margin-right: 8px;
   }
   .grid-c1-content span {
-    color: #8a8587;
+    color: var(--clr-white);
   }
   .grid-c1 .card-logo-wrapper {
     display: flex;

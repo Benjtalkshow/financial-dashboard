@@ -11,9 +11,9 @@
   .grid-c2 .grid-item:last-child {
     margin-bottom: 0;
   }
-  .grid-c2 .grid-item p {
+  /* .grid-c2 .grid-item p {
     color: var(--clr-silver-v1);
-  }
+  } */
   .grid-c2 .grid-item-l .avatar {
     width: 40px;
     height: 40px;
