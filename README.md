@@ -68,10 +68,5 @@ A reusable component for rendering a bar chart using Chart.js library. It takes 
 
 ### Contributors
 
-- [Your Name]
-- [Contributor 1]
-- [Contributor 2]
-
+#### Nnaji Benjamin | Developer
 ---
-
-Feel free to add more detailed information or sections to the documentation based on your project's requirements and complexity.
