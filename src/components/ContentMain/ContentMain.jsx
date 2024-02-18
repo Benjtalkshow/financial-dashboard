@@ -4,6 +4,7 @@ import Transaction from "../Transaction/Transaction";
 import Reports from "../Reports/Reports";
 import Budget from "../Budget/Budget";
 import Loans from "../Loan/Loan";
+import Advice from "../Advice/Advice";
 
 const ContentMain = () => {
   return (
@@ -17,14 +18,15 @@ const ContentMain = () => {
       <Budget />
         <div className="grid-two-item">
           <div className="subgrid-two">
-          <Loans />
-          <Loans />
+          <Advice />
+          <Advice />
+          <Advice />
           </div>
         </div>
         <div className="grid-two-item">
           <div className="subgrid-two">
-            <Loans />
-            <Loans />
+            <Advice />
+            <Reports />
           </div>
         </div>
       </div>
