@@ -46,7 +46,7 @@ const PieChart = ({ data }) => {
     }
   }, [data]);
 
-  return <canvas ref={chartRef} style={{ width: "50px", height: "50px" }} />;
+  return <canvas ref={chartRef} width={20} height={20} />;
 };
 
 export default PieChart;
